@@ -12,16 +12,18 @@ body{
     padding: 10px;
 }
 
-img{
+img.logo{
     height: 150px;
     position: relative;
     right: 10%;
     top: 30%;
  }
 
+
 div.container{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     border-radius: 40px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     opacity: 1;
@@ -40,10 +42,12 @@ div.logContainer{
     width: 55%;
 }
 
-div.left-image{
+img.login{
+    width: 100%;
+}
+.left-image{
     width: 45%;
-    height: 60vh;
-    background-image: url(images/login.png);
+    height: 100%;
     background-size: cover;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
@@ -119,7 +123,7 @@ input[type="email"]:invalid ,
 
  button{
     height: 100%;
-    width: 30%;
+    width: 40%;
     border: none;
     border-radius: 10px;
     background-color: rgb(149, 55, 149);

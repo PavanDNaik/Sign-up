@@ -5,7 +5,7 @@ password.oninput = verification;
 confirms.oninput = verification;
 function verification(){
 
-    if(password.value == confirms.value || 
+    if((password.value !== "" && password.value == confirms.value) || 
     (!password.classList.contains("error") ||
     !confirms.classList.contains("error")))
     {

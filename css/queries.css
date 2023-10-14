@@ -17,7 +17,12 @@
         font-weight: 700;
         font-size: 50px;
     }
-
+    input{
+        font-size: 24px;
+    }
+    button{
+        width: 40%;
+    }
 }
 
 @media screen and (max-width: 1024px){
