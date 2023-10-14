@@ -1,0 +1,153 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(images/background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: 'Tilt Neon', sans-serif;
+    padding: 10px;
+}
+
+img{
+    height: 150px;
+    position: relative;
+    right: 10%;
+    top: 30%;
+ }
+
+div.container{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    opacity: 1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 60vw;
+    padding: 5%;
+}
+
+div.logContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    width: 55%;
+}
+
+div.left-image{
+    width: 45%;
+    height: 60vh;
+    background-image: url(images/login.png);
+    background-size: cover;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form,
+div.header{
+    width: 100%;
+}
+
+.header{
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+}
+
+fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    border-radius: 40px;
+    padding: 5%;
+    border: none;
+    justify-content: space-evenly;
+}
+
+fieldset div{
+    width: 40%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 25px;
+}
+
+input{
+    display: block;
+    height: 40px;
+    font-size: 27px;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-style: none;
+    border-radius: 10px;
+    opacity: 0.3;
+}
+
+input:focus{
+    opacity: 0.6;
+    position: relative;
+    bottom: 10%;
+    right: 2%;
+    width: 105%;
+    outline: 3px solid rgb(149, 55, 149);
+}
+
+input[type="email"]:invalid ,
+.error{
+    outline: 3px solid red;
+  }
+  
+  input[type="email"]:valid,
+  .proper {
+    outline: 3px solid green;
+  }
+
+ button{
+    height: 100%;
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(149, 55, 149);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Tilt Neon', sans-serif;
+ }
+
+ a{
+    color: rgb(149, 55, 149);
+    padding: 20px;
+    text-decoration: none;
+ }
+
+ a:hover{
+    position: relative;
+    bottom: 15%;
+ }
+ p,a{
+    font-size: 25px;
+ }
+
+ button:hover{
+    transform: scale(1.05);
+ }
+
+ button:active{
+    transform: scale(0.95);
+ }
+

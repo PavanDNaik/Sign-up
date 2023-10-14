@@ -1,0 +1,139 @@
+
+
+@media screen and (max-width: 1480px){
+    div.left-image{
+        display: none;
+    }
+
+    div.logContainer{
+        width: 95%;
+    }
+
+    img{
+        height: 120px;
+     }
+
+     .header{
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+
+
+    div.logContainer{
+        width: 97%;
+        padding: 2%;
+        gap: 6%;
+    }
+
+    fieldset div{
+        width: 80%;
+    }
+    input{
+        height: 80%;
+        font-size: 23px;
+    }
+    img{
+        height: 90px;
+     }
+
+     .header{
+        font-weight: 600;
+        font-size: 45px;
+    }
+
+    button{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+
+    div.container{
+        width: 70vw;
+    }
+    div.logContainer{
+        width: 97%;
+        padding: 2%;
+        gap: 4%;
+    }
+
+    fieldset div{
+        width: 100%;
+    }
+    input{
+        height: 60%;
+        font-size: 22px;
+    }
+    img{
+        height: 80px;
+     }
+
+     .header{
+        font-weight: 550;
+        font-size: 40px;
+    }
+
+    p,a{
+        font-size: 20px;
+     }
+
+     button{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    body{
+        padding: 10px;
+    }
+    div.container{
+        width: 90vw;
+    }
+    div.logContainer{
+        width: 100%;
+        padding: 1%;
+        gap: 3%;
+    }
+
+    fieldset div{
+        width: 100%;
+        font-size: 15px;
+    }
+    input{
+        height: 60%;
+        font-size: 20px;
+    }
+    img{
+        height: 80px;
+     }
+
+     .header{
+        font-weight: 550;
+        font-size: 30px;
+    }
+
+    p,a{
+        font-size: 15px;
+     }
+     button{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    input{
+        font-size: 15px;
+    }
+    p,a{
+        font-size: 12px;
+    }
+    button{
+        width: 85%;
+    }
+}

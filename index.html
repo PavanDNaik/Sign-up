@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left-image">
+            
+        </div>
+        <div class="logContainer">
+            <div class="header"><img src="images/odin-lined.png" alt="LOGO">Sign-up</div>
+            <form action="" onsubmit="index.html">
+                    <fieldset>
+                        <!-- <legend>Lets do this!</legend> -->
+                                <div>
+                                    <label for="first-name" >First-name</label>
+                                    <input type="text" placeholder="Enter first-name" required>
+                                </div>
+                                <div>
+                                    <label for="second-name">Second-name</label>
+                                    <input type="text" placeholder="Enter second-name" required>
+                                </div>
+
+                                <div>
+                                    <label for="E-mail">E-mail</label>
+                                    <input type="email" placeholder="Enter email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
+                                </div>
+                                <div>
+                                    <label for="Phone">Phone</label>
+                                    <input type="number" placeholder="Enter Phone" required>
+                                </div>
+
+                                <div>
+                                    <label for="password">Password</label>
+                                    <input type="password" placeholder="Enter password"  id="pass" class="error" required>
+                                </div>
+                                <div>
+                                    <label for="confirm">Confirm</label>
+                                    <input type="password" placeholder="Confirm password" id="conf" class="error" required>
+                                </div>
+
+                       
+                    </fieldset>
+
+                    <button type="submit" >Create Account</button>
+                    <p>Already have an account? <a href="#">log-in</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
